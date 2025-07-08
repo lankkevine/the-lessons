@@ -1,0 +1,267 @@
+*{    
+  margin:0;
+  padding:0;
+}
+
+.logo img{
+    width: 8%;
+    height: 130px;
+    position: relative;
+    left: 20px;
+  }
+  .logo span{
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+  }
+  .icons{
+    position: absolute;
+    right: 160px;
+    margin-left: 300px;
+    top: 55px;
+  }
+  .icons i{
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all .5s;
+  }
+  .icons i:hover{
+    color: #eba50e;
+  }
+
+.nav ul a{
+    font-size: 40px;
+    color: blue;
+    text-transform: uppercase;
+    
+    padding-left: 150px;
+}
+#navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(125, 0, 0);
+    padding: 20px;
+  }
+    #navbar a {
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        margin-left: 100px;
+      }
+#navbar a:hover{
+    color: darkorange;
+    transition: 0s;
+}
+
+
+    .nav1 h1{
+      margin-left: 1500px;
+      margin-top: -110px;
+  
+    }
+    .nav1 a{
+       margin-left: 1500px;
+       text-decoration: none;
+       list-style-type: none;
+       font-size: 20px;
+       color: black;
+    }
+     /* Set a style for all buttons */
+.sign button {
+    background-color: rgb(125, 0, 0);
+    color: white;
+    padding: 14px 20px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-transform: uppercase;
+  }
+  .sign button:hover {
+    opacity:1;
+  }
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #474e5d;
+  }
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+  }
+  .signupbtn{
+  margin-left:550px;
+  margin-top: -51px;
+  background-color: #474e5d;
+  }
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 97%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  /* Full-width input fields */
+input[type=checkbox], input[type=remember] {
+  width: 40px;
+  height: 15px;
+  }
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    background-color: #474e5d;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  } 
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  form ::placeholder{
+    color: #000106;
+  }
+  .clearfix button{
+    border: 2px solid red;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .5s;
+    border: none;
+  }
+  .clearfix button:hover{
+    background-color: rgb(125, 0, 0);
+  }
+  .social-icons{
+    margin-top: 30px;
+    color: #fff;
+  }
+  .social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .social-icons i:hover{
+    color: #fff;
+  }
+  .footer{
+    padding: 100px 15%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border-radius: 50px;
+  }
+  .footer div{
+    text-align: center;
+  }
+  .col-2{
+    flex-grow: 2;
+  }
+  .footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  form button{
+    background-color: #eee;
+    border: 2px solid red;
+    color: #111;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .5s;
+    border: none;
+  }
+  form button:hover{
+    background-color: #eba50e;
+  }
+  .service h1{
+    text-align: center;
+  
+}
+.box-flex{
+ display: flex;   
+}
+.img img{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    padding: 30px;
+    
+}
+.img p{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

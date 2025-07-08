@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="font-4/css/all.css">
+</head>
+<body>
+      <!-- header section -->
+      <div class="logo">
+        <img src="image/LOGO1.jpg">
+        <span>Ururabo Company Limited</span>
+      
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+        </div>
+        <!--sign up-->
+        <div class="sign">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="sign">Sign Up</button>
+      </div>
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <form class="modal-content" action="https://www.w3schools.com/action_page.php">
+            <div class="container">
+              <h1>Sign In</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+             
+              <input type="text" placeholder="Enter Email" name="email" required>
+        
+              
+              <input type="password" placeholder="Enter Password" name="psw" required>
+        
+              
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+              <label>
+                <input type="checkbox" values="checked" name="remember"> Remember me
+              </label>
+        
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+              <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign In</button>
+              </div>
+            </div>
+          </form>
+        </div>
+         
+          <div id="navbar">
+                 <a href="homepage.html">Home</a>
+                 <a href="gallery.html">Gallery</a>
+                  <a href="service.html">Services</a>
+                 <a href="aboutus.html">About us</a>
+          </div>
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                  if (event.target == modal) {
+                    modal.style.display = "none";
+                  }
+                }
+                </script>
+                
+                
+                <!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form_modal by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:38:48 GMT -->
+                
+                
+          </div>
+    <div class="head">
+        <h3>Welcome to About us</h3>
+    </div>
+  
+    <div class="about">
+        <h1 align="center"><u>OUR MISSION</u></h1>
+     <p>Our aim is to make happiness for clients in every step of website.<br>
+    To become the provider of choice for innovative solutions and service in Rwanda</p>
+    </div> 
+    <div class="vission">
+        <h1 align="center"><u>OUR VISION</u></h1>
+        <p>Our aim is to make happiness for clients in every step of website.<br>
+        To provide the best customer-centric solutions for conferences and events by hiring
+        industrious employees utilizing innovative systems and building strong relationships with our paterners
+        </p>
+    </div>
+    <div class="goal">
+        <h1 align="center"><u>OUR GOAL</u></h1>
+        <P>Our goal is to improve development of country and other human activities</P>  
+    </div>
+
+    <div class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="homepage.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="service.html">SERVICE</a>
+            <a href="aboutus.html">ABOUT US</a> 
+        </div>
+        <div class="col-2">
+            <h3>NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="Submit" class="btn1">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <p>decolation<br><br>
+                Contacts Us:+250 790997196<br><br>
+                Kigali City, Kicukiro, IN <br><br>
+          E-mail: Ururabocompanylimited@gmail.com</p>
+            
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-behance"></i>
+            </div>
+        </div>
+      </div> 
+</body>
+</html>
